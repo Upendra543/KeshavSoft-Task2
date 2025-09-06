@@ -1,0 +1,149 @@
+body {
+    font-family: Poppins, sans-serif;
+    line-height: 1.7;
+    background-color: #f9fafb;
+    color: #2d2d2d
+}
+
+.navbar {
+    padding: 1rem 0
+}
+
+.navbar-brand {
+    font-size: 1.5rem
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    margin-left: 10px
+}
+
+.navbar {
+    background-color: #90a955;
+    color: #132a13
+}
+
+.hero-section {
+    background-color: #4f772d;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 700
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+    margin-top: 15px
+}
+
+.hero-section .btn {
+    padding: 14px 32px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: .3s
+}
+
+.hero-section .btn:hover {
+    transform: scale(1.05);
+    background-color: #ff6584;
+    border-color: #ff6584;
+    color: #fff
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block
+}
+
+h2:after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #ff6584;
+    display: block;
+    margin: 8px auto 0;
+    border-radius: 2px
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+    background: #fff;
+    box-shadow: 0 5px 15px #0000000d
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 8px 20px #0000001f
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600
+}
+
+.p-4 {
+    transition: .3s;
+    border-radius: 12px
+}
+
+.p-4:hover {
+    background: #5f8e36;
+    color: #000;
+    transform: scale(1.05)
+}
+
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #00000014
+}
+
+form input,
+form textarea {
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1rem
+}
+
+form button {
+    background-color: #6c63ff;
+    border: none;
+    padding: 14px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: .3s
+}
+
+footer {
+    background: #2d2d2d;
+    color: #eee;
+    padding: 1.2rem
+}
+
+form .w-100 {
+    background-color: #31572c;
+    color: #ecf39e
+}
+
+form .w-100:hover {
+    background-color: #90a955;
+    color: #ecf39e
+}
+
+footer p {
+    margin: 0;
+    font-size: .95rem
+}
